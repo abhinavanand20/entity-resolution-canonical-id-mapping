@@ -35,6 +35,7 @@ CSV source → Schema validation → Exact/rule-based matching → Conflict dete
 
 This is intentionally conservative: one matching normalized attribute is sufficient for a rule match in this demo. Production systems should define authoritative fields, thresholds, survivorship, and manual approval policy with business owners.
 
+
 ## Setup
 
 ```bash
@@ -48,6 +49,7 @@ source .venv/bin/activate
 
 pip install -r requirements.txt
 ```
+
 
 ## Generate Data and Run
 
@@ -71,6 +73,7 @@ Use a different input file:
 python -m src.pipeline --input data/input/source_records.csv
 ```
 
+
 ## Outputs
 
 - `data/canonical_mapping.duckdb`: Persistent target database.
@@ -78,6 +81,7 @@ python -m src.pipeline --input data/input/source_records.csv
 - `data/quarantine/rejected_<run_id>.csv`: Schema/business validation rejects.
 - `data/quarantine/unresolved_<run_id>.csv`: Ambiguous mapping cases.
 - `reports/run_<run_id>.json`: Counts and reconciliation report.
+
 
 ## Tests
 
@@ -88,6 +92,7 @@ pytest -v
 ```
 
 The current test suite contains 8 automated tests covering matching, stable ID generation, pipeline reruns, failed-run recording, validation, empty batches, and schema changes.
+
 
 ## Useful SQL
 
