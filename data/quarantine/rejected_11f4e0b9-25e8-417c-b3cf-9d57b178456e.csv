@@ -1,0 +1,2 @@
+reason,source_system,source_id,event_id,event_ts,email,phone,name
+missing_required_field:source_id,crm,,event-invalid,2026-11-10T13:25:37.784679+00:00,person1@example.test,+91-9800000001,Ravi Sharma

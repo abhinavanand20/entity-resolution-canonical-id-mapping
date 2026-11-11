@@ -1,0 +1,21 @@
+source_system,source_id,event_id,event_ts,email,phone,name,canonical_id,match_type,confidence,run_id,source_file
+crm,CRM-0000001,event-00000001,2026-11-10 13:25:37.784679,person1@example.test,+91-9800000001,Ravi Sharma,can_d2bfa2155c5312364741,new,1.0,11f4e0b9-25e8-417c-b3cf-9d57b178456e,source_records.csv
+billing,BILLING-0000002,event-00000002,2026-11-10 13:24:37.785172,person1@example.test,+91-9800000001,Meera Kumar,can_d2bfa2155c5312364741,rule,0.95,11f4e0b9-25e8-417c-b3cf-9d57b178456e,source_records.csv
+crm,CRM-0000003,event-00000003,2026-11-10 13:23:37.785181,person3@example.test,+91-9800000003,Arjun Kumar,can_f315d9940dec5c902509,new,1.0,11f4e0b9-25e8-417c-b3cf-9d57b178456e,source_records.csv
+billing,BILLING-0000004,event-00000004,2026-11-10 13:22:37.785197,person3@example.test,+91-9800000003,Ravi Das,can_f315d9940dec5c902509,rule,0.95,11f4e0b9-25e8-417c-b3cf-9d57b178456e,source_records.csv
+crm,CRM-0000005,event-00000005,2026-11-10 13:21:37.785201,person5@example.test,+91-9800000005,Ravi Rao,can_085503416a550db2cb1a,new,1.0,11f4e0b9-25e8-417c-b3cf-9d57b178456e,source_records.csv
+billing,BILLING-0000006,event-00000006,2026-11-10 13:20:37.785205,person5@example.test,+91-9800000005,Isha Sharma,can_085503416a550db2cb1a,rule,0.95,11f4e0b9-25e8-417c-b3cf-9d57b178456e,source_records.csv
+crm,CRM-0000007,event-00000007,2026-11-10 13:19:37.785209,person7@example.test,+91-9800000007,Asha Sharma,can_12fd18a9f50571ba0d75,new,1.0,11f4e0b9-25e8-417c-b3cf-9d57b178456e,source_records.csv
+billing,BILLING-0000008,event-00000008,2026-11-10 13:18:37.785213,person7@example.test,+91-9800000007,Arjun Kumar,can_12fd18a9f50571ba0d75,rule,0.95,11f4e0b9-25e8-417c-b3cf-9d57b178456e,source_records.csv
+crm,CRM-0000009,event-00000009,2026-11-10 13:17:37.785217,person9@example.test,+91-9800000009,Asha Rao,can_aa977b9f38d9142a29a0,new,1.0,11f4e0b9-25e8-417c-b3cf-9d57b178456e,source_records.csv
+billing,BILLING-0000010,event-00000010,2026-11-10 13:16:37.785222,person9@example.test,+91-9800000009,Arjun Das,can_aa977b9f38d9142a29a0,rule,0.95,11f4e0b9-25e8-417c-b3cf-9d57b178456e,source_records.csv
+crm,CRM-0000011,event-00000011,2026-11-10 13:15:37.785226,person11@example.test,+91-9800000011,Isha Kumar,can_c48ca866567cb6838e6b,new,1.0,11f4e0b9-25e8-417c-b3cf-9d57b178456e,source_records.csv
+billing,BILLING-0000012,event-00000012,2026-11-10 13:14:37.785230,person11@example.test,+91-9800000011,Dev Rao,can_c48ca866567cb6838e6b,rule,0.95,11f4e0b9-25e8-417c-b3cf-9d57b178456e,source_records.csv
+crm,CRM-0000013,event-00000013,2026-11-10 13:13:37.785234,person13@example.test,+91-9800000013,Meera Sharma,can_e215b59a098106b92869,new,1.0,11f4e0b9-25e8-417c-b3cf-9d57b178456e,source_records.csv
+billing,BILLING-0000014,event-00000014,2026-11-10 13:12:37.785238,person13@example.test,+91-9800000013,Neha Das,can_e215b59a098106b92869,rule,0.95,11f4e0b9-25e8-417c-b3cf-9d57b178456e,source_records.csv
+crm,CRM-0000015,event-00000015,2026-11-10 13:11:37.785243,person15@example.test,+91-9800000015,Isha Singh,can_36a119791c836a54efad,new,1.0,11f4e0b9-25e8-417c-b3cf-9d57b178456e,source_records.csv
+billing,BILLING-0000016,event-00000016,2026-11-10 13:10:37.785248,person15@example.test,+91-9800000015,Meera Kumar,can_36a119791c836a54efad,rule,0.95,11f4e0b9-25e8-417c-b3cf-9d57b178456e,source_records.csv
+crm,CRM-0000017,event-00000017,2026-11-10 13:09:37.785251,person17@example.test,+91-9800000017,Arjun Singh,can_a6db9d612eddf28a3b27,new,1.0,11f4e0b9-25e8-417c-b3cf-9d57b178456e,source_records.csv
+billing,BILLING-0000018,event-00000018,2026-11-10 13:08:37.785272,person17@example.test,+91-9800000017,Ravi Sharma,can_a6db9d612eddf28a3b27,rule,0.95,11f4e0b9-25e8-417c-b3cf-9d57b178456e,source_records.csv
+crm,CRM-0000019,event-00000019,2026-11-10 13:07:37.785277,person19@example.test,+91-9800000019,Isha Sharma,can_b123d107b504d25c0953,new,1.0,11f4e0b9-25e8-417c-b3cf-9d57b178456e,source_records.csv
+billing,BILLING-0000020,event-00000020,2026-11-10 13:06:37.785281,person19@example.test,+91-9800000019,Kabir Singh,can_b123d107b504d25c0953,rule,0.95,11f4e0b9-25e8-417c-b3cf-9d57b178456e,source_records.csv

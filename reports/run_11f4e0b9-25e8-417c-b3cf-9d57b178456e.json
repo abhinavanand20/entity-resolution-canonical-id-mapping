@@ -1,0 +1,16 @@
+{
+  "run_id": "11f4e0b9-25e8-417c-b3cf-9d57b178456e",
+  "status": "SUCCESS",
+  "source_file": "source_records.csv",
+  "started_at": "2026-11-10T13:39:35.517085Z",
+  "finished_at": "2026-11-10T13:39:35.888125Z",
+  "input_count": 22,
+  "valid_count": 21,
+  "mapped_count": 20,
+  "unresolved_count": 0,
+  "rejected_count": 1,
+  "duplicate_count": 1,
+  "reconciliation": {
+    "input_equals_mapped_plus_unresolved_plus_rejected_plus_duplicates": true
+  }
+}
