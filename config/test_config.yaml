@@ -1,0 +1,12 @@
+
+paths:
+  database: data/clean_test.duckdb
+  input: data/input/source_records.csv
+  output_dir: data/output_test
+  quarantine_dir: data/quarantine_test
+  reports_dir: reports_test
+
+matching:
+  exact_fields: [source_system, source_id]
+  rule_fields: [email, phone]
+  minimum_rule_agreement: 1

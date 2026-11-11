@@ -1,0 +1,47 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# DuckDB databases
+*.duckdb
+*.duckdb.wal
+
+# Generated data
+data/input/*.csv
+data/output/*
+data/quarantine/*
+data/*_test.duckdb
+
+# Generated reports
+reports/*
+reports_test/
+
+# Test-generated files
+data/output_test/
+data/quarantine_test/
+reports_test/
+
+# Keep placeholder files
+!data/output/.gitkeep
+!data/quarantine/.gitkeep
+!reports/.gitkeep
+
+# Logs and secrets
+*.log
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

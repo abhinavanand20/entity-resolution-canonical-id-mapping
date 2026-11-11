@@ -1,0 +1,10 @@
+paths:
+  database: data/canonical_mapping.duckdb
+  input: data/input/source_records.csv
+  output_dir: data/output
+  quarantine_dir: data/quarantine
+  reports_dir: reports
+matching:
+  exact_fields: [source_system, source_id]
+  rule_fields: [email, phone]
+  minimum_rule_agreement: 1
